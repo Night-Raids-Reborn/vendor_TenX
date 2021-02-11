@@ -102,6 +102,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     TouchGestures
 
+# Omni stuff
+PRODUCT_PACKAGES += \
+    OmniJaws
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
