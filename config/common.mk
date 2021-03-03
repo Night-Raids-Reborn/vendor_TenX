@@ -98,6 +98,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common \
     vendor/aosp/overlay-pixel/common
 
+# Custom Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
+
 # TouchGestures
 PRODUCT_PACKAGES += \
     TouchGestures
