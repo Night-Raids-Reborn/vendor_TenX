@@ -3,7 +3,7 @@ TENX_VERSION := 2.9
 TENX_BASE_VERSION := v2.9
 TENX_FANBASE_NAME := Cyan
 
-CUSTOM_BUILD_TYPE ?= UNOFFICIAL
+CUSTOM_BUILD_TYPE ?= UnOfficial
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
 CUSTOM_DATE_MONTH := $(shell date -u +%m)
