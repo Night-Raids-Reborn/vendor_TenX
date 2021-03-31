@@ -112,7 +112,8 @@ PRODUCT_PACKAGES += \
 
 # Omni stuff
 PRODUCT_PACKAGES += \
-    OmniJaws
+    OmniJaws \
+    OmniStyle
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
