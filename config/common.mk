@@ -115,6 +115,10 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     OmniStyle
 
+# Fonts
+PRODUCT_PACKAGES += \
+    Custom-Fonts
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
