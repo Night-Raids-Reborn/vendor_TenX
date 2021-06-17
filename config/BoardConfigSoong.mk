@@ -52,8 +52,6 @@ SOONG_CONFIG_NAMESPACES += customQcomVars
 SOONG_CONFIG_customQcomVars += \
     legacy_hw_disk_encryption \
     should_wait_for_qsee \
-    supports_audio_accessory \
-    supports_debug_accessory \
     supports_extended_compress_format \
     supports_hw_fde \
     supports_hw_fde_perf \
