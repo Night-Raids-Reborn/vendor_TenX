@@ -111,8 +111,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     CustomDoze
 
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/aosp/config/device_framework_matrix.xml
-
 # TouchGestures
 PRODUCT_PACKAGES += \
     TouchGestures
