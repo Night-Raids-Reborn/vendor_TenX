@@ -35,7 +35,7 @@ bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	@echo -e ${CL_RED}"   ██║   █████╗  ██╔██╗ ██║ ╚███╔╝  "${CL_RED}
 	@echo -e ${CL_RED}"   ██║   ██╔══╝  ██║╚██╗██║ ██╔██╗  "${CL_RED}
 	@echo -e ${CL_RED}"   ██║   ███████╗██║ ╚████║██╔╝ ██╗ "${CL_RED}
-	@echo -e ${CL_BLU}"   ╚═╝   ╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝ "${CL_BLU}
+	@echo -e ${CL_RED}"   ╚═╝   ╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝ "${CL_RED}
 	@echo -e ${CL_RED}"                                    "${CL_RED}
 	@echo -e ${CL_RED}"       TenX build is completed!     "${CL_RED}
 	@echo -e ${CL_CYN}"=============================-Package Details-============================"${CL_RST}
