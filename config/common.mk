@@ -228,4 +228,9 @@ $(call inherit-product, vendor/aosp/config/ota.mk)
 # RRO Overlays
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 
+# Include Lawnchair
+ifeq ($(USE_LAWNCHAIR), true)
+$(call inherit-product, vendor/lawnchair/lawnchair.mk)
+endif
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
