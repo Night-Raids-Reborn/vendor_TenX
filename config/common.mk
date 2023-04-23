@@ -243,5 +243,9 @@ endif
 # AICP Ad-block
 PRODUCT_PACKAGES += \
     hosts.aicp_adblock
+    
+# SoftAP
+PRODUCT_PACKAGES += \
+    SoftAPManager 
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
