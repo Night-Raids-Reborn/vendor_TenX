@@ -246,6 +246,10 @@ PRODUCT_PACKAGES += \
     
 # SoftAP
 PRODUCT_PACKAGES += \
-    SoftAPManager 
+    SoftAPManager
+
+# Stitch asus
+PRODUCT_PACKAGES += \
+    StitchImage
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
